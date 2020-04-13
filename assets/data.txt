@@ -1,0 +1,375 @@
+E100 Curcumin, turmeric COLOR HALAL
+E101 Riboflavin (Vitamin B2), formerly called lactoflavin (Vitamin G) COLOR SUSPECTED
+E101a Riboflavin-5 -Phosphate COLOR SUSPECTED
+E102 Tartrazine COLOR ALLERGY HALAL
+E103 Chrysoine Resorcinol COLOR UNKNOWN
+E104 Quinoline Yellow COLOR ALLERGY HALAL
+E105 Fast Yellow AB COLOR UNKNOWN
+E106 Riboflavin-5-Sodium Phosphate COLOR SUSPECTED
+E107 Yellow 2G COLOR UNKNOWN
+E110 Sunset Yellow FCF, Orange Yellow S COLOR HALAL
+E111 Orange GGN COLOR UNKNOWN
+E120 Cochineal, Carminic acid, Carmines COLOR ANIMAL HARAM
+E121 Orcein, Orchil COLOR UNKNOWN
+E122 Carmoisine, Azorubine COLOR HALAL
+E123 Amaranth COLOR HALAL
+E124 Ponceau 4R, Cochineal Red A, Brilliant Scarlet 4R COLOR HALAL
+E125 Scarlet GN COLOR UNKNOWN
+E126 Ponceau 6R COLOR UNKNOWN
+E127 Erythrosine COLOR HALAL
+E128 Red 2G COLOR HALAL
+E129 Allura Red AC COLOR HALAL
+E130 Indanthrene blue RS COLOR UNKNOWN
+E131 Patent Blue V COLOR HALAL
+E132 Indigo carmine, Indigotine COLOR HALAL
+E133 Brilliant Blue FCF COLOR HALAL
+E140 Chlorophylls and Chlorophyllins: (i) Chlorophylls (ii) Chlorophyllins COLOR HARAM
+E141 Copper complexes of chlorophylls and chlorophyllins (i) Copper complexes of chlorophylls (ii) Copper complexes of chlorophyllins COLOR HARAM
+E142 Greens S COLOR ALLERGY HALAL
+E150a Plain Caramel COLOR  HALAL
+E150b Caustic sulphite caramel COLOR  HALAL
+E150c Ammonia caramel COLOR  HALAL
+E150d Sulphite ammonia caramel COLOR  HALAL
+E151 Black PN, Brilliant Black BN COLOR HALAL
+E152 Black 7984 COLOR UNKNOWN
+E153 Carbon black, Vegetable carbon COLOR  SUSPECTED
+E154 Brown FK, Kipper Brown COLOR HALAL
+E155 Brown HT, Chocolate brown HT COLOR HALAL
+E160a Alpha-carotene, Beta-carotene, Gamma-carotene COLOR SUSPECTED
+E160b Annatto, bixin, norbixin COLOR HALAL
+E160c Capsanthin, capsorubin, Paprika extract COLOR HALAL
+E160d Lycopene COLOR possibly GM HALAL
+E160e Beta-apo-8 -carotenal (C 30) COLOR HALAL
+E160f Ethyl ester of beta-apo-8 -carotenic acid (C 30) COLOR HALAL
+E161a Flavoxanthin COLOR SUSPECTED
+E161b Lutein COLOR HARAM
+E161c Cryptoaxanthin COLOR  HALAL
+E161d Rubixanthin COLOR HALAL
+E161e Violaxanthin COLOR HALAL
+E161f Rhodoxanthin COLOR HALAL
+E161g Canthaxanthin COLOR HARAM
+E162 Beetroot Red, Betanin COLOR HALAL
+E163 Anthocyanins COLOR HALAL
+E170 Calcium carbonate COLOR HALAL
+E171 Titanium dioxide COLOR HALAL
+E172 Iron oxides and hydroxides COLOR HALAL
+E173 Aluminium COLOR HALAL
+E174 Silver COLOR HALAL
+E175 Gold COLOR HALAL
+E180 Pigment Rubine, Lithol Rubine BK COLOR HALAL
+E181 Tannin UNKNOWN
+E200 Sorbic acid CONSERVATIVE HALAL
+E201 Sodium sorbate CONSERVATIVE HALAL
+E202 Potassium sorbate CONSERVATIVE HALAL
+E203 Calcium sorbate CONSERVATIVE HALAL
+E210 Benzoic acid CONSERVATIVE HALAL
+E211 Sodium benzoate CONSERVATIVE HALAL
+E212 Potassium benzoate CONSERVATIVE HALAL
+E213 Calcium benzoate CONSERVATIVE HALAL
+E214 Ethyl para-hydroxybenzoate CONSERVATIVE HALAL
+E215 Sodium ethyl para-hydroxybenzoate CONSERVATIVE HALAL
+E216 Propyl para-hydroxybenzoate CONSERVATIVE HALAL
+E217 Sodium propyl para-hydroxybenzoate CONSERVATIVE HALAL
+E218 Methyl para-hydroxybenzoate CONSERVATIVE HALAL
+E219 Sodium methyl para-hydroxybenzoate CONSERVATIVE HALAL
+E220 Sulphur dioxide CONSERVATIVE HALAL
+E221 Sodium sulphite CONSERVATIVE HALAL
+E222 Sodium hydrogen sulphite CONSERVATIVE HALAL
+E223 Sodium metabisulphite CONSERVATIVE HALAL
+E224 Potassium metabisulphite CONSERVATIVE HALAL
+E225 Sodium sulphite CONSERVATIVE UNKNOWN
+E226 Calcium sulphite CONSERVATIVE HALAL
+E227 Calcium hydrogen sulphite CONSERVATIVE MUTHABBET HALAL
+E228 Potassium hydrogen sulphite CONSERVATIVE UNKNOWN
+E230 Biphenyl, diphenyl CONSERVATIVE HALAL
+E231 Orthophenyl phenol CONSERVATIVE HALAL
+E232 Sodium orthophenyl phenol CONSERVATIVE HALAL
+E233 Thiabendazole CONSERVATIVE HALAL
+E234 Nisin CONSERVATIVE UNKNOWN
+E235 Natamycin, Pimaracin CONSERVATIVE HALAL
+E236 Formic acid CONSERVATIVE HALAL
+E237 Sodium formiate CONSERVATIVE HALAL
+E238 Calcium formiate CONSERVATIVE HALAL
+E239 Hexamethylene tetramine, Hexamine CONSERVATIVE HALAL
+E240 Formaldehyde CONSERVATIVE UNKNOWN
+E242 Dimethyl dicarbonate CONSERVATIVE HALAL
+E249 Potassium nitrite CONSERVATIVE HALAL
+E250 Sodium nitrite CONSERVATIVE HALAL
+E251 Sodium nitrate, saltpetre CONSERVATIVE HALAL
+E252 Potassium nitrate (Saltpetre) CONSERVATIVE HARAM
+E260 Acetic acid CONSERVATIVE ACIDIC HALAL
+E261 Potassium acetate CONSERVATIVE ACIDIC HALAL
+E262 Sodium acetates (i) Sodium acetate (ii) Sodium hydrogen acetate (sodium diacetate) CONSERVATIVE ACIDIC HALAL
+E263 Calcium acetate CONSERVATIVE ACIDIC HALAL
+E264 Ammonium acetate CONSERVATIVE UNKNOWN
+E270 Lactic acid CONSERVATIVE Acid ANTIOXIDANT HALAL
+E280 Propionic acid CONSERVATIVE HALAL
+E281 Sodium propionate CONSERVATIVE HALAL
+E282 Calcium propionate CONSERVATIVE HALAL
+E283 Potassium propionate CONSERVATIVE HALAL
+E284 Boric acid CONSERVATIVE HALAL
+E285 Sodium tetraborate (borax) CONSERVATIVE HALAL
+E290 Carbon dioxide ACIDIC HALAL
+E296 Malic acid Acid ACIDIC HALAL
+E297 Fumaric acid ACIDIC HALAL
+E300 Ascorbic acid (Vitamin C) ANTIOXIDANT HALAL
+E301 Sodium ascorbate ANTIOXIDANT HALAL
+E302 Calcium ascorbate ANTIOXIDANT HALAL
+E303 Potassium ascorbate ANTIOXIDANT UNKNOWN
+E304 Fatty acid esters of ascorbic acid (i) Ascorbyl palmitate (ii) Ascorbyl stearate ANTIOXIDANT SUSPECTED
+E306 Tocopherol-rich extract (natural) ANTIOXIDANT HALAL
+E307 Alpha-tocopherol (synthetic) ANTIOXIDANT HALAL
+E308 Gamma-tocopherol (synthetic) ANTIOXIDANT HALAL
+E309 Delta-tocopherol (synthetic) ANTIOXIDANT HALAL
+E310 Propyl gallate ANTIOXIDANT HALAL
+E311 Octyl gallate ANTIOXIDANT HALAL
+E312 Dodecyl gallate ANTIOXIDANT HALAL
+E315 Erythorbic acid ANTIOXIDANT HALAL
+E316 Sodium erythorbate ANTIOXIDANT HALAL
+E317 Erythorbin acid ANTIOXIDANT UNKNOWN
+E318 Sodium erythorbin ANTIOXIDANT UNKNOWN
+E319 Butylhydroxinon ANTIOXIDANT UNKNOWN
+E320 Butylated hydroxyanisole (BHA) ANTIOXIDANT HALAL
+E321 Butylated hydroxytoluene (BHT) ANTIOXIDANT HALAL
+E322 Lecithin MUSTAHLAB SUSPECTED; HALAL if it is from soy fat or egg yolk; HARAM if it is from animal fat
+E325 Sodium lactate ANTIOXIDANT HALAL
+E326 Potassium lactate ANTIOXIDANT ACIDIC HALAL
+E327 Calcium lactate ANTIOXIDANT possibly of ANIMAL HALAL
+E329 Magnesium lactate ANTIOXIDANT UNKNOWN
+E330 Citric acid ANTIOXIDANT HALAL
+E331 Sodium citrates (i) Monosodium citrate (ii) Disodium citrate (iii) Trisodium citrate ANTIOXIDANT HALAL
+E332 Potassium citrates (i) Monopotassium citrate (ii) Tripotassium citrate ANTIOXIDANT HALAL
+E333 Calcium citrates (i) Monocalcium citrate (ii) Dicalcium citrate (iii) Tricalcium citrate ACIDIC MUTHABBET HALAL
+E334 Tartaric acid (L(+)-) Acid ANTIOXIDANT HALAL
+E335 Sodium tartrates (i) Monosodium tartrate (ii) Disodium tartrate ANTIOXIDANT HALAL
+E336 Potassium tartrates (i) Monopotassium tartrate (cream of tartar) (ii) Dipotassium tartrate ANTIOXIDANT HALAL
+E337 Sodium potassium tartrate ANTIOXIDANT HALAL
+E338 Phosphoric acid ANTIOXIDANT HALAL
+E339 Sodium phosphates (i) Monosodium phosphate (ii) Disodium phosphate (iii) Trisodium phosphate ANTIOXIDANT SUSPECTED
+E340 Potassium phosphates (i) Monopotassium phosphate (ii) Dipotassium phosphate (iii) Tripotassium phosphate ANTIOXIDANT SUSPECTED
+E341 Calcium phosphates (i) Monocalcium phosphate (ii) Dicalcium phosphate (iii) Tricalcium phosphate ANTITAKATTOL MUTHABBET SUSPECTED
+E343 Magnesium phosphates (i) monomagnesium phosphate (ii) Dimagnesium phosphate ANTITAKATTOL UNKNOWN
+E350 Sodium malates (i) Sodium malate (ii) Sodium hydrogen malate ACIDIC HALAL
+E351 Potassium malate ACIDIC HALAL
+E352 Calcium malates (i) Calcium malate (ii) Calcium hydrogen malate ACIDIC HALAL
+E353 Metatartaric acid MUSTAHLAB HALAL
+E354 Calcium tartrate MUSTAHLAB UNKNOWN
+E355 Adipic acid ACIDIC HALAL
+E356 Sodium adipate ACIDIC HALAL
+E357 Potassium adipate ACIDIC HALAL
+E363 Succinic acid ACIDIC HALAL
+E365 Sodium fumarate ACIDIC UNKNOWN
+E366 Potassium fumarate ACIDIC UNKNOWN
+E367 Calcium fumarateACIDIC UNKNOWN
+E370 I,4-Heptonolactone ACIDIC UNKNOWN
+E375 Nicotinic acid, Niacin, Nicotinamide Colour Retention Agent UNKNOWN
+E380 Triammonium citrate ACIDIC HALAL
+E381 Ammoniumferrocitrate ACIDIC UNKNOWN
+E385 Calcium disodium ethylene diamine tetra-acetate (Calcium disodium EDTA) HALAL
+E400 Alginic acid MUTHAKHEN STABILIZER CRYSTALIZOR MUSTAHLAB HALAL
+E401 Sodium alginate MUTHAKHEN STABILIZER CRYSTALIZOR MUSTAHLAB HALAL
+E402 Potassium alginate MUTHAKHEN STABILIZER CRYSTALIZOR MUSTAHLAB HALAL
+E403 Ammonium alginate MUTHAKHEN STABILIZER MUSTAHLAB HALAL
+E404 Calcium alginate MUTHAKHEN STABILIZER CRYSTALIZOR MUSTAHLAB HALAL
+E405 Propane-1,2-diol alginate (Propylene glycol alginate) MUTHAKHEN STABILIZER MUSTAHLAB HALAL
+E406 Agar MUTHAKHEN CRYSTALIZOR STABILIZER HALAL
+E407 Carrageenan MUTHAKHEN STABILIZER CRYSTALIZOR MUSTAHLAB ALLERGY HALAL
+E407a Processed eucheuma seaweed MUTHAKHEN STABILIZER CRYSTALIZOR MUSTAHLAB UNKNOWN
+E410 Locust bean gum (Carob gum) MUTHAKHEN STABILIZER CRYSTALIZOR MUSTAHLAB HALAL
+E412 Guar gum MUTHAKHEN STABILIZER HALAL
+E413 Tragacanth MUTHAKHEN STABILIZER MUSTAHLAB HALAL
+E414 Acacia gum (gum arabic) MUTHAKHEN STABILIZER MUSTAHLAB HALAL
+E415 Xanthan gum MUTHAKHEN STABILIZER HALAL
+E416 Karaya gum MUTHAKHEN STABILIZER MUSTAHLAB HALAL
+E417 Tara gum MUTHAKHEN STABILIZER HALAL
+E418 Gellan gum MUTHAKHEN STABILIZER MUSTAHLAB HALAL
+E420 Sorbitol (i) Sorbitol (ii) Sorbitol syrup MUSTAHLAB Sweetener MOISTERIZER HALAL
+E421 Mannitol ANTITAKATTOL Sweetener HALAL
+E422 Glycerol MUSTAHLAB Sweetener possibly of ANIMAL SUSPECTED
+E425 Konjac (i) Konjac gum (ii) Konjac glucomannane MUSTAHLAB UNKNOWN
+E430 Polyoxyethylene (8) stearate MUSTAHLAB STABILIZER ALLERGY HARAM
+E431 Polyoxyethylene (40) stearate MUSTAHLAB HARAM
+E432 Polyoxyethylene (20) sorbitan monolaurate (polysorbate 20) MUSTAHLAB SUSPECTED
+E433 Polyoxyethylene (20) sorbitan monooleate (polysorbate 80) MUSTAHLAB SUSPECTED
+E434 Polyoxyethylene (20) sorbitan monopalmitate (polysorbate 40) MUSTAHLAB SUSPECTED
+E435 Polyoxyethylene (20) sorbitan monostearate (polysorbate 60) MUSTAHLAB SUSPECTED
+E436 Polyoxyethylene (20) sorbitan tristearate (polysorbate 65) MUSTAHLAB possibly of ANIMAL SUSPECTED
+E440 Pectins (i) pectin (ii) amidated pectin MUSTAHLAB HALAL
+E441 Gelatine MUSTAHLAB CRYSTALIZOR ANIMAL HARAM
+E442 Ammonium phosphatides MUSTAHLAB HALAL
+E444 Sucrose acetate isobutyrate MUSTAHLAB HALAL
+E445 Glycerol esters of wood rosins MUSTAHLAB SUSPECTED
+E450 Diphosphates (i) Disodium diphosphate (ii) Trisodium diphosphate(iii) Tetrasodium diphosphate (iv) Dipotassium diphosphate (v) Tetrapotassium diphosphate (vi) Dicalcium diphosphate (vii) Calcium dihydrogen diphosphate MUSTAHLAB HALAL
+E451 Triphosphates (i) Pentasodium triphosphate (ii) Pentapotassium triphosphate MUSTAHLAB SUSPECTED
+E452 Polyphosphates (i) Sodium polyphosphates (ii) Potassium polyphosphates (iii) Sodium calcium polyphosphate (iv) Calcium polyphophates MUSTAHLAB SUSPECTED
+E459 Beta-cyclodextrine MUSTAHLAB UNKNOWN
+E460 Cellulose (i) Microcrystalline cellulose (ii) Powdered cellulose MUSTAHLAB HALAL
+E461 Methyl cellulose MUSTAHLAB HALAL
+E462 Ethyl cellulose MUSTAHLAB UNKNOWN
+E463 Hydroxy propyl cellulose MUSTAHLAB HALAL
+E464 Hydroxy propyl methyl cellulose MUSTAHLAB HALAL
+E465 Ethyl methyl cellulose MUSTAHLAB HALAL
+E466 Carboxy methyl cellulose, Sodium carboxy methyl cellulose MUSTAHLAB HALAL
+E468 Crosslinked sodium carboxymethyl cellulose MUSTAHLAB UNKNOWN
+E469 Enzymically hydrolysed carboxymethylcellulose MUSTAHLAB UNKNOWN
+E470a Sodium, potassium and calcium salts of fatty acids MUSTAHLAB ANTITAKATTOL SUSPECTED
+E470b Magnesium salts of fatty acids MUSTAHLAB ANTITAKATTOL SUSPECTED
+E471 Mono- and diglycerides of fatty acids (glyceryl monostearate, glyceryl distearate) MUSTAHLAB SUSPECTED
+E472a Acetic acid esters of mono- and diglycerides of fatty acids MUSTAHLAB SUSPECTED
+E472b Lactic acid esters of mono- and diglycerides of fatty acids MUSTAHLAB SUSPECTED
+E472c Citric acid esters of mono- and diglycerides of fatty acids MUSTAHLAB SUSPECTED
+E472d Tartaric acid esters of mono- and diglycerides of fatty acids MUSTAHLAB SUSPECTED
+E472e Mono- and diacetyl tartaric acid esters of mono- and diglycerides of fatty acids MUSTAHLAB SUSPECTED
+E472f Mixed acetic and tartaric acid esters of mono- and diglycerides of fatty acids MUSTAHLAB SUSPECTED
+E473 Sucrose esters of fatty acids MUSTAHLAB SUSPECTED
+E474 Sucroglycerides MUSTAHLAB SUSPECTED
+E475 Polyglycerol esters of fatty acids MUSTAHLAB SUSPECTED
+E476 Polyglycerol polyricinoleate MUSTAHLAB SUSPECTED
+E477 Propane-1, 2-diol esters of fatty acids, propylene glycol esters of fatty acids MUSTAHLAB SUSPECTED
+E478 Lactylated fatty acid esters of glycerol and propane-1 MUSTAHLAB SUSPECTED
+E479b Thermally oxidized soya bean oil interacted with mono- and diglycerides of fatty acids MUSTAHLAB HALAL
+E481 Sodium stearoyl-2-lactylate MUSTAHLAB HALAL
+E482 Calcium stearoyl-2-lactylate MUSTAHLAB HALAL
+E483 Stearyl tartrate MUSTAHLAB HALAL
+E491 Sorbitan monostearate MUSTAHLAB SUSPECTED
+E492 Sorbitan tristearate MUSTAHLAB SUSPECTED
+E493 Sorbitan monolaurate MUSTAHLAB HALAL
+E494 Sorbitan monooleate MUSTAHLAB SUSPECTED
+E495 Sorbitan monopalmitate MUSTAHLAB SUSPECTED
+E500 Sodium carbonates (i) Sodium carbonate (ii) Sodium hydrogen carbonate (Bicarbonate of soda) (iii) Sodium sesquicarbonate ACIDIC Raising Agent HALAL
+E501 Potassium carbonates (i) Potassium carbonate (ii) Potassium hydrogen carbonate ACIDIC HALAL
+E503 Ammonium carbonates (i) Ammonium carbonate (ii) Ammonium hydrogen carbonate ACIDIC HALAL
+E504 Magnesium carbonates (i) Magnesium carbonate (ii) Magnesium hydroxide carbonate (syn. Magnesium hydrogen carbonate) ACIDIC ANTITAKATTOL HALAL
+E507 Hydrochloric acid Acid HALAL
+E508 Potassium chloride CRYSTALIZOR Seasoning HALAL
+E509 Calcium chloride Sequestrant MUTHABBET HALAL
+E510 Ammonium chloride, ammonia solution ACIDIC ENHANCER HALAL
+E511 Magnesium chloride MUTHABBET HALAL
+E512 Stannous chloride ANTIOXIDANT HALAL
+E513 Sulphuric acid Acid HALAL
+E514 Sodium sulphates (i) Sodium sulphate (ii) Sodium hydrogen sulphate ACIDIC HALAL
+E515 Potassium sulphates (i) Potassium sulphate (ii) Potassium hydrogen sulphate Seasoning HALAL
+E516 Calcium sulphate Sequestrant ENHANCER MUTHABBET HALAL
+E517 Ammonium sulphate ENHANCER HALAL
+E518 Magnesium sulphate, Epsom salts ACIDIC MUTHABBET HALAL
+E519 Copper sulphate CONSERVATIVE HALAL
+E520 Aluminium sulphate MUTHABBET HALAL
+E521 Aluminium sodium sulphate MUTHABBET HALAL
+E522 Aluminium potassium sulphate ACIDIC HALAL
+E523 Aluminium ammonium sulphate ACIDIC HALAL
+E524 Sodium hydroxide ACIDIC HALAL
+E525 Potassium hydroxide ACIDIC HALAL
+E526 Calcium hydroxide ACIDIC MUTHABBET HALAL
+E527 Ammonium hydroxide ACIDIC HALAL
+E528 Magnesium hydroxide ACIDIC HALAL
+E529 Calcium oxide ACIDIC ENHANCER HALAL
+E530 Magnesium oxide ACIDIC ANTITAKATTOL HALAL
+E535 Sodium ferrocyanide ACIDIC ANTITAKATTOL HALAL
+E536 Potassium ferrocyanide ANTITAKATTOL HALAL
+E538 Calcium ferrocyanide ANTITAKATTOL HALAL
+E540 Dicalcium diphosphate ACIDIC MUSTAHLAB HALAL
+E541 Sodium aluminium phosphate, acidic MUSTAHLAB HALAL
+E542 Bone phosphate ANTITAKATTOL ANIMAL HARAM
+E543 Calcium sodium polyphosphate HALAL
+E544 Calcium polyphosphate MUSTAHLAB HALAL
+E545 Aluminium polyphosphate MUSTAHLAB UNKNOWN
+E550 Sodium silicate ANTITAKATTOL HALAL
+E551 Silicon dioxide (Silica) MUSTAHLAB ANTITAKATTOL HALAL
+E552 Calcium silicate ANTITAKATTOL HALAL
+E553a (i) Magnesium silicate (ii) Magnesium trisilicate ANTITAKATTOL HALAL
+E553b Talc ANTITAKATTOL HALAL
+E554 Sodium aluminium silicate ANTITAKATTOL HALAL
+E555 Potassium aluminium silicate ANTITAKATTOL HALAL
+E556 Calcium aluminium silicate ANTITAKATTOL HALAL
+E558 Bentonite ANTITAKATTOL HALAL
+E559 Aluminium silicate (Kaolin) ANTITAKATTOL HALAL
+E570 Stearic acid (Fatty acid) ANTITAKATTOL SUSPECTED
+E572 Magnesium stearate, calcium stearate MUSTAHLAB ANTITAKATTOL SUSPECTED
+E574 Gluconic acid ACIDIC HALAL
+E575 Glucono-delta-lactone ACIDIC Sequestrant HALAL
+E576 Sodium gluconate Sequestrant HALAL
+E577 Potassium gluconate Sequestrant HALAL
+E578 Calcium gluconate MUTHABBET HALAL
+E579 Ferrous gluconate COLOR HALAL
+E585 Ferrous lactate COLOR HALAL
+E620 Glutamic acid FLAVOR ENHANCER SUSPECTED
+E621 Monosodium glutamate FLAVOR ENHANCER SUSPECTED
+E622 Monopotassium glutamate FLAVOR ENHANCER SUSPECTED
+E623 Calcium diglutamate FLAVOR ENHANCER SUSPECTED
+E624 Monoammonium glutamate FLAVOR ENHANCER SUSPECTED
+E625 Magnesium diglutamate FLAVOR ENHANCER SUSPECTED
+E626 Guanylic acid FLAVOR ENHANCER HALAL
+E627 Disodium guanylate, sodium guanylate FLAVOR ENHANCER HALAL
+E628 Dipotassium guanylate FLAVOR ENHANCER HALAL
+E629 Calcium guanylate FLAVOR ENHANCER HALAL
+E630 Inosinic acid FLAVOR ENHANCER HALAL
+E631 Disodium inosinate FLAVOR ENHANCER possibly of ANIMAL SUSPECTED
+E632 Dipotassium inosinate FLAVOR ENHANCER HALAL
+E633 Calcium inosinate FLAVOR ENHANCER HALAL
+E634 Calcium 5 -ribonucleotides FLAVOR ENHANCER HARAM
+E635 Disodium 5 -ribonucleotides FLAVOR ENHANCER possibly of ANIMAL HARAM
+E636 Maltol FLAVOR ENHANCER HALAL
+E637 Ethyl maltol FLAVOR ENHANCER HALAL
+E640 Glycine and its sodium salt FLAVOR ENHANCER possibly of ANIMAL SUSPECTED
+E900 Dimethyl polysiloxane Anti-foaming agent ANTITAKATTOL HALAL
+E901 Beeswax, white and yellow Glazing agent ANIMAL HALAL
+E902 Candelilla wax Glazing agent HALAL
+E903 Carnauba wax Glazing agent ALLERGY HALAL
+E904 Shellac Glazing agent ANIMAL HALAL
+E905 Microcrystalline wax Glazing agent UNKNOWN
+E907 Crystalline wax Glazing agent HALAL
+E910 L-cysteine ANIMAL HALAL
+E912 Montanic acid esters HALAL
+E913 Lanolin, sheep wool grease Glazing agent HALAL
+E914 Oxidized polyethylene wax Glazing agent HALAL
+E915 Esters of Colophane Glazing agent HALAL
+E920 L-cysteine hydrochloride ENHANCER ANIMAL HARAM
+E921 L-cysteine hydrochloride monohydrate ENHANCER ANIMAL HARAM
+E924 Potassium bromate ENHANCER UNKNOWN
+E925 Chlorine CONSERVATIVE Bleach HALAL
+E926 Chlorine dioxide CONSERVATIVE Bleach HALAL
+E927b Carbamide ENHANCER HALAL
+E928 Benzole peroxide ENHANCER UNKNOWN
+E938 Argon Packaging gas HALAL
+E939 Helium Packaging gas HALAL
+E941 Nitrogen Packaging gas HALAL
+E942 Nitrous oxide Propellant HALAL
+E948 Oxygen Packaging gas HALAL
+E950 Acesulfame K Sweetener HALAL
+E951 Aspartame Sweetener HALAL
+E952 Cyclamic acid and its Na and Ca salts Sweetener HALAL
+E953 Isomalt Sweetener HALAL
+E954 Saccharin and its Na, K and Ca salts Sweetener HALAL
+E957 Thaumatin Sweetener FLAVOR ENHANCER HALAL
+E959 Neohesperidine DC Sweetener HALAL
+E965 Maltitol (i) Maltitol (ii) Maltitol syrup Sweetener STABILIZER MOISTERIZER HALAL
+E966 Lactitol Sweetener ANIMAL HALAL
+E967 Xylitol Sweetener HALAL
+E999 Quillaia extract Foaming Agent HALAL
+E1103 Invertase STABILIZER HALAL
+E1105 Lysozyme CONSERVATIVE HARAM
+E1200 Polydextrose STABILIZER MUTHAKHEN MOISTERIZER Carrier HALAL
+E1201 Polyvinylpyrrolidone STABILIZER HALAL
+E1202 Polyvinylpolypyrrolidone Carrier STABILIZER HALAL
+E1400 Dextrin STABILIZER MUTHAKHEN HALAL
+E1401 Modified starch STABILIZER MUTHAKHEN UNKNOWN
+E1402 Alkaline modified starch STABILIZER MUTHAKHEN HALAL
+E1403 Bleached starch STABILIZER MUTHAKHEN UNKNOWN
+E1404 Oxidized starch MUSTAHLAB MUTHAKHEN HALAL
+E1410 Monostarch phosphate STABILIZER MUTHAKHEN HALAL
+E1412 Distarch phosphate STABILIZER MUTHAKHEN HALAL
+E1413 Phosphated distarch phosphate STABILIZER MUTHAKHEN HALAL
+E1414 Acetylated distarch phosphate MUSTAHLAB MUTHAKHEN HALAL
+E1420 Acetylated starch, mono starch acetate STABILIZER MUTHAKHEN HALAL
+E1421 Acetylated starch, mono starch acetate STABILIZER MUTHAKHEN UNKNOWN
+E1422 Acetylated distarch adipate STABILIZER MUTHAKHEN HALAL
+E1430 Distarch glycerine STABILIZER MUTHAKHEN UNKNOWN
+E1440 Hydroxy propyl starch MUSTAHLAB MUTHAKHEN HALAL
+E1441 Hydroxy propyl distarch glycerine STABILIZER MUTHAKHEN
+E1442 Hydroxy propyl distarch phosphate STABILIZER MUTHAKHEN HALAL
+E1450 Starch sodium octenyl succinate MUSTAHLAB STABILIZER MUTHAKHEN HALAL
+E1451 Acetylated oxidised starch MUSTAHLAB MUTHAKHEN UNKNOWN
+E1505 Triethyl citrate Foam STABILIZER HALAL
+E1510 Ethanon UNKNOWN
+E1518 Glyceryl triacetate (triacetin) MOISTERIZER SUSPECTED
+E1520 Propylene glycol MOISTERIZER

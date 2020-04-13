@@ -5,26 +5,21 @@ window.onload = function (_) {
     var reset = document.getElementById("reset");
     var inputform = document.getElementById("inputform");
     var EElement;
-    console.log(enumber);
     enumber.onkeyup = function (_) {
         if (enumber.value != "") {
-            EElement = "E" + enumber.value;
+            EElement = "E" + hindiToArabic(enumber.value);
             console.log(EElement);
         }
     };
     inputform.onsubmit = function (ev) {
-        console.log(EElement);
         fetch("assets/data.json")
             .then(function (response) { return response.json(); })
             .then(function (data) {
-            console.log(EElement);
             var info = data["" + EElement];
-            console.log(info);
             if (info === null) {
                 result.innerHTML = "NOT FOUND";
             }
             else {
-                console.log(info["tags"]);
                 result.innerHTML = "";
                 var EElementName = document.createElement("p");
                 EElementName.innerHTML = EElement;
@@ -67,4 +62,18 @@ function translateToArabic(tag) {
         default:
             return "";
     }
+}
+function hindiToArabic(input) {
+    var hindi = ['٠', '١', '٢', '٣', '٤', '٥', '٦', '٧', '٨', '٩'];
+    var arabic = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
+    var array = input.split('');
+    console.log(input);
+    array.map(function (_, i, array) {
+        console.log("Looking at " + array[i]);
+        if (hindi.indexOf(array[i]) >= 0) {
+            console.log("Found " + array[i] + " in " + hindi);
+            array[i] = arabic[hindi.indexOf(array[i])];
+        }
+    });
+    return array.join('');
 }

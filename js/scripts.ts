@@ -8,7 +8,7 @@ window.onload = _ => {
     let EElement: string
     enumber.onkeyup = _ => {
         if (enumber.value != "") {
-            EElement = `E${enumber.value}`
+            EElement = `E${hindiToArabic(enumber.value)}`
         }
     }
 
@@ -66,4 +66,16 @@ function translateToArabic(tag:string) : string{
         default:
             return ""
     }
+}
+
+function hindiToArabic(input: string): string{
+    let hindi = ['٠', '١', '٢', '٣', '٤', '٥', '٦', '٧', '٨', '٩'];
+    let arabic = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
+    let array = input.split('');
+    array.map(function (_, i, array) {
+        if (hindi.indexOf(array[i]) >= 0) {
+            array[i] = arabic[hindi.indexOf(array[i])];
+        }
+    });
+    return array.join('');
 }

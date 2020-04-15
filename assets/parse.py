@@ -1,6 +1,6 @@
 import json
 
-f = open("data.txt", "r")
+f = open("./assets/data.txt", "r")
 
 result= dict()
 

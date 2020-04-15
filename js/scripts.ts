@@ -1,4 +1,9 @@
-let PossibleJudgmenets : Array<string> = ["HALAL", "HARAM","SUSPECTED", "UNKNOWN"]
+
+type Judgement = "HALAL" | "HARAM" | "SUSPECTED" | "UNKNOWN" | "NOTFOUND"
+function isJudgement(arg: string): arg is Judgement {
+    let judgmenets: Array<string> = ["HALAL", "HARAM", "SUSPECTED", "UNKNOWN", "NOTFOUND"]
+    return judgmenets.indexOf(arg) != -1
+}
 
 window.onload = _ => {
     let enumber: HTMLInputElement = document.getElementById("enumber") as HTMLInputElement
@@ -13,6 +18,7 @@ window.onload = _ => {
     }
 
     inputform.onsubmit = ev => {
+        let found = false
         fetch("assets/data.json")
             .then(response => response.json())
             .then(data => {
@@ -20,55 +26,44 @@ window.onload = _ => {
                 if (info === null) {
                     result.innerHTML = "NOT FOUND"
                 } else {
-                    result.innerHTML = ""
-                    let EElementName: HTMLParagraphElement = document.createElement("p")
-                    EElementName.innerHTML=EElement
-                    let judgement: HTMLParagraphElement = document.createElement("p")
-
                     let tags = info["tags"] as Array<string>
                     tags.forEach(tag => {
-                        if (PossibleJudgmenets.indexOf(tag) === -1)
-                            return
-                        let arabicTranslation = translateToArabic(tag)
-                        if (arabicTranslation != "") {
-                            result.className = `result ${tag}`
-                            judgement.innerHTML = arabicTranslation
+                        if (isJudgement(tag)) {
+                            parseIntoResult(result, EElement, tag)
+                            found = true
                         }
                     })
-                    result.appendChild(EElementName)
-                    result.appendChild(judgement)
                 }
             })
+        if (!found) {
+            parseIntoResult(result,EElement,"NOTFOUND")
+        }
         enumber.value = ""
         return false // to prevent reload
     }
 
-    reset.onclick = ev => {
+    reset.onclick = _ => {
         enumber.value = ""
     }
 }
 
 
-function translateToArabic(tag:string) : string{
+function translateToArabic(tag: Judgement): string {
     switch (tag) {
         case "HALAL":
             return "حلال"
-        case "COLOR":
-            return "ملوّن"
         case "SUSPECTED":
             return "مشبوه"
-        case "ALLERGY":
-            return "قد يسبب حساسية"
         case "UNKNOWN":
             return "غير معروف"
         case "HARAM":
             return "حرام"
-        default:
-            return ""
+        case "NOTFOUND":
+            return "غير موجود"
     }
 }
 
-function hindiToArabic(input: string): string{
+function hindiToArabic(input: string): string {
     let hindi = ['٠', '١', '٢', '٣', '٤', '٥', '٦', '٧', '٨', '٩'];
     let arabic = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
     let array = input.split('');
@@ -78,4 +73,17 @@ function hindiToArabic(input: string): string{
         }
     });
     return array.join('');
+}
+
+
+function parseIntoResult(result: HTMLDivElement, element: string, judgement: Judgement) {
+    result.innerHTML = ""
+    let elementName: HTMLParagraphElement = document.createElement("p")
+    elementName.innerHTML = element
+    let elementJudgement: HTMLParagraphElement = document.createElement("p")
+    let arabicTranslation = translateToArabic(judgement)
+    result.className = `result ${judgement}`
+    elementJudgement.innerHTML = arabicTranslation
+    result.appendChild(elementName)
+    result.appendChild(elementJudgement)
 }

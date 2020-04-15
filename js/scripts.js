@@ -1,4 +1,7 @@
-var PossibleJudgmenets = ["HALAL", "HARAM", "SUSPECTED", "UNKNOWN"];
+function isJudgement(arg) {
+    var judgmenets = ["HALAL", "HARAM", "SUSPECTED", "UNKNOWN", "NOTFOUND"];
+    return judgmenets.indexOf(arg) != -1;
+}
 window.onload = function (_) {
     var enumber = document.getElementById("enumber");
     var result = document.getElementById("information");
@@ -8,10 +11,10 @@ window.onload = function (_) {
     enumber.onkeyup = function (_) {
         if (enumber.value != "") {
             EElement = "E" + hindiToArabic(enumber.value);
-            console.log(EElement);
         }
     };
     inputform.onsubmit = function (ev) {
+        var found = false;
         fetch("assets/data.json")
             .then(function (response) { return response.json(); })
             .then(function (data) {
@@ -20,28 +23,22 @@ window.onload = function (_) {
                 result.innerHTML = "NOT FOUND";
             }
             else {
-                result.innerHTML = "";
-                var EElementName = document.createElement("p");
-                EElementName.innerHTML = EElement;
-                var judgement_1 = document.createElement("p");
                 var tags = info["tags"];
                 tags.forEach(function (tag) {
-                    if (PossibleJudgmenets.indexOf(tag) === -1)
-                        return;
-                    var arabicTranslation = translateToArabic(tag);
-                    if (arabicTranslation != "") {
-                        result.className = "result " + tag;
-                        judgement_1.innerHTML = arabicTranslation;
+                    if (isJudgement(tag)) {
+                        parseIntoResult(result, EElement, tag);
+                        found = true;
                     }
                 });
-                result.appendChild(EElementName);
-                result.appendChild(judgement_1);
             }
         });
+        if (!found) {
+            parseIntoResult(result, EElement, "NOTFOUND");
+        }
         enumber.value = "";
         return false; // to prevent reload
     };
-    reset.onclick = function (ev) {
+    reset.onclick = function (_) {
         enumber.value = "";
     };
 };
@@ -49,31 +46,35 @@ function translateToArabic(tag) {
     switch (tag) {
         case "HALAL":
             return "حلال";
-        case "COLOR":
-            return "ملوّن";
         case "SUSPECTED":
             return "مشبوه";
-        case "ALLERGY":
-            return "قد يسبب حساسية";
         case "UNKNOWN":
             return "غير معروف";
         case "HARAM":
             return "حرام";
-        default:
-            return "";
+        case "NOTFOUND":
+            return "غير موجود";
     }
 }
 function hindiToArabic(input) {
     var hindi = ['٠', '١', '٢', '٣', '٤', '٥', '٦', '٧', '٨', '٩'];
     var arabic = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
     var array = input.split('');
-    console.log(input);
     array.map(function (_, i, array) {
-        console.log("Looking at " + array[i]);
         if (hindi.indexOf(array[i]) >= 0) {
-            console.log("Found " + array[i] + " in " + hindi);
             array[i] = arabic[hindi.indexOf(array[i])];
         }
     });
     return array.join('');
+}
+function parseIntoResult(result, element, judgement) {
+    result.innerHTML = "";
+    var elementName = document.createElement("p");
+    elementName.innerHTML = element;
+    var elementJudgement = document.createElement("p");
+    var arabicTranslation = translateToArabic(judgement);
+    result.className = "result " + judgement;
+    elementJudgement.innerHTML = arabicTranslation;
+    result.appendChild(elementName);
+    result.appendChild(elementJudgement);
 }

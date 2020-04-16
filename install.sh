@@ -4,13 +4,15 @@ command_exists () {
 }
 
 if [ "$1" == "clean" ]; then
-    rm ./assets/data.json
+    rm ./js/data.json
+    rm ./js/data.ts
     rm ./js/scripts.js
 fi
 
 command_exists "python3" "apt install python3"
-python3 ./assets/parse.py > ./assets/data.json
+python3 ./assets/parse.py > ./js/data.ts
 
 command_exists "npm" "apt install npm"
 command_exists "tsc" "npm install typescript -g"
+tsc js/data.ts
 tsc js/scripts.ts

@@ -1,3 +1,4 @@
+let data: any | null
 
 type Judgement = "HALAL" | "HARAM" | "SUSPECTED" | "UNKNOWN" | "NOTFOUND"
 function isJudgement(arg: string): arg is Judgement {
@@ -23,22 +24,19 @@ window.onload = _ => {
 
     inputform.onsubmit = ev => {
         let found = false
-        fetch("assets/data.json")
-            .then(response => response.json())
-            .then(data => {
-                var info = data[`${eElement}`]
-                if (info === null) {
-                    result.innerHTML = "NOT FOUND"
-                } else {
-                    let tags = info["tags"] as Array<string>
-                    tags.forEach(tag => {
-                        if (isJudgement(tag)) {
-                            parseIntoResult(result, eElement, tag)
-                            found = true
-                        }
-                    })
+        var info = data[`${eElement}`]
+        if (info === null || info === undefined) {
+            result.innerHTML = "NOT FOUND"
+        } else {
+            console.log("info " + info)
+            let tags = info["tags"] as Array<string>
+            tags.forEach(tag => {
+                if (isJudgement(tag)) {
+                    parseIntoResult(result, eElement, tag)
+                    found = true
                 }
             })
+        }
         if (!found) {
             parseIntoResult(result, eElement, "NOTFOUND")
         }

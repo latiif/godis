@@ -23,8 +23,7 @@ body {
     vertical-align: middle;
 }
 
-input,
-button {
+input {
     color: #fff;
     font-family: Nunito;
     padding: 0;
@@ -36,7 +35,7 @@ button {
 
 #cover {
     position: absolute;
-    top: 10%;
+    top: 30%;
     left: 0;
     right: 0;
     width: 550px;
@@ -62,36 +61,10 @@ input[type="text"] {
 input[type="text"]::placeholder {
     color: rgb(202, 218, 233);
     font-family: 'Amiri';
+    text-align: center
 }
 
-#s-cover {
-    width: 1px;
-    padding-left: 35px;
-}
-
-button {
-    position: relative;
-    display: block;
-    width: 84px;
-    height: 96px;
-    cursor: pointer;
-}
-
-#s-circle {
-    position: relative;
-    top: -8px;
-    right: 0;
-    width: 43px;
-    height: 43px;
-    margin-top: 0;
-    border-width: 15px;
-    border: 15px solid #fff;
-    background-color: transparent;
-    border-radius: 50%;
-    transition: 0.5s ease all;
-}
-
-button span {
+span {
     position: absolute;
     top: 68px;
     left: 43px;
@@ -101,20 +74,6 @@ button span {
     background-color: transparent;
     border-radius: 10px;
     transform: rotateZ(52deg);
-    transition: 0.5s ease all;
-}
-
-button span:before,
-button span:after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 45px;
-    height: 15px;
-    background-color: #fff;
-    border-radius: 10px;
-    transform: rotateZ(0);
     transition: 0.5s ease all;
 }
 
@@ -155,7 +114,7 @@ button span:after {
 .result {
     position: absolute;
     padding-top: 1px;
-    top: 30%;
+    top: 50%;
     left: 0;
     right: 0;
     width: 550px;

@@ -1,7 +1,7 @@
 
 type Judgement = "HALAL" | "HARAM" | "SUSPECTED" | "UNKNOWN" | "NOTFOUND"
 function isJudgement(arg: string): arg is Judgement {
-    let judgmenets: Array<string> = ["HALAL", "HARAM", "SUSPECTED", "UNKNOWN", "NOTFOUND"]
+    let judgmenets = ["HALAL", "HARAM", "SUSPECTED", "UNKNOWN", "NOTFOUND"]
     return judgmenets.indexOf(arg) != -1
 }
 
@@ -10,14 +10,14 @@ window.onload = _ => {
     let result: HTMLDivElement = document.getElementById("information") as HTMLDivElement
     let reset: HTMLButtonElement = document.getElementById("reset") as HTMLButtonElement
     let inputform: HTMLFormElement = document.getElementById("inputform") as HTMLFormElement
-    let EElement: string
+    let eElement: string
     enumber.onkeyup = _ => {
         enumber.value = enumber.value.replace(/\s/g, ""); // Remove whitespaces
         enumber.value = enumber.value.toUpperCase()
         if (enumber.value != "") {
             //Determine whether the leading E is needed
-            let prefix : string = enumber.value[0]==="E"? "":"E"
-            EElement = `${prefix}${hindiToArabic(enumber.value)}`
+            let prefix: string = enumber.value[0] === "E" ? "" : "E"
+            eElement = `${prefix}${hindiToArabic(enumber.value)}`
         }
     }
 
@@ -26,21 +26,21 @@ window.onload = _ => {
         fetch("assets/data.json")
             .then(response => response.json())
             .then(data => {
-                var info = data[`${EElement}`]
+                var info = data[`${eElement}`]
                 if (info === null) {
                     result.innerHTML = "NOT FOUND"
                 } else {
                     let tags = info["tags"] as Array<string>
                     tags.forEach(tag => {
                         if (isJudgement(tag)) {
-                            parseIntoResult(result, EElement, tag)
+                            parseIntoResult(result, eElement, tag)
                             found = true
                         }
                     })
                 }
             })
         if (!found) {
-            parseIntoResult(result,EElement,"NOTFOUND")
+            parseIntoResult(result, eElement, "NOTFOUND")
         }
         enumber.value = ""
         return false // to prevent reload
@@ -51,9 +51,8 @@ window.onload = _ => {
     }
 }
 
-
-function translateToArabic(tag: Judgement): string {
-    switch (tag) {
+function translateToArabic(judgement: Judgement): string {
+    switch (judgement) {
         case "HALAL":
             return "حلال"
         case "SUSPECTED":
@@ -78,7 +77,6 @@ function hindiToArabic(input: string): string {
     });
     return array.join('');
 }
-
 
 function parseIntoResult(result: HTMLDivElement, element: string, judgement: Judgement) {
     result.innerHTML = ""

@@ -16,3 +16,5 @@ command_exists "npm" "apt install npm"
 command_exists "tsc" "npm install typescript -g"
 tsc js/data.ts
 tsc js/scripts.ts
+curl -X POST -s --data-urlencode 'input@./js/data.js' https://javascript-minifier.com/raw > ./js/data.min.js
+curl -X POST -s --data-urlencode 'input@./js/scripts.js' https://javascript-minifier.com/raw > ./js/scripts.min.js

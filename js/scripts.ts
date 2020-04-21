@@ -9,7 +9,6 @@ function isJudgement(arg: string): arg is Judgement {
 window.onload = _ => {
     let enumber: HTMLInputElement = document.getElementById("enumber") as HTMLInputElement
     let result: HTMLDivElement = document.getElementById("information") as HTMLDivElement
-    let reset: HTMLButtonElement = document.getElementById("reset") as HTMLButtonElement
     let inputform: HTMLFormElement = document.getElementById("inputform") as HTMLFormElement
     let eElement: string
     enumber.onkeyup = _ => {
@@ -36,10 +35,6 @@ window.onload = _ => {
         }
         enumber.value = ""
         return false // to prevent reload
-    }
-
-    reset.onclick = _ => {
-        enumber.value = ""
     }
 }
 

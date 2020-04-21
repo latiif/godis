@@ -13,13 +13,7 @@ window.onload = _ => {
     let inputform: HTMLFormElement = document.getElementById("inputform") as HTMLFormElement
     let eElement: string
     enumber.onkeyup = _ => {
-        enumber.value = enumber.value.replace(/\s/g, ""); // Remove whitespaces
-        enumber.value = enumber.value.toUpperCase()
-        if (enumber.value != "") {
-            //Determine whether the leading E is needed
-            let prefix: string = enumber.value[0] === "E" ? "" : "E"
-            eElement = `${prefix}${hindiToArabic(enumber.value)}`
-        }
+        eElement = `${hindiToArabic(enumber.value)}`
     }
 
     inputform.onsubmit = ev => {

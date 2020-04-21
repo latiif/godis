@@ -6,6 +6,7 @@ command_exists () {
 if [ "$1" == "clean" ]; then
     rm ./js/data.json
     rm ./js/data.ts
+    rm ./js/autocomplete.js
     rm ./js/scripts.js
 fi
 
@@ -15,6 +16,8 @@ python3 ./assets/parse.py > ./js/data.ts
 command_exists "npm" "apt install npm"
 command_exists "tsc" "npm install typescript -g"
 tsc js/data.ts
+tsc --lib ES2015,DOM js/autocomplete.ts
 tsc js/scripts.ts
 curl -X POST -s --data-urlencode 'input@./js/data.js' https://javascript-minifier.com/raw > ./js/data.min.js
 curl -X POST -s --data-urlencode 'input@./js/scripts.js' https://javascript-minifier.com/raw > ./js/scripts.min.js
+curl -X POST -s --data-urlencode 'input@./js/autocomplete.js' https://javascript-minifier.com/raw > ./js/autocomplete.min.js

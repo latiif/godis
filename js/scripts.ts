@@ -6,7 +6,7 @@ function isJudgement(arg: string): arg is Judgement {
     return judgmenets.indexOf(arg) != -1
 }
 
-window.onload = _ => {
+window.addEventListener('load', _ => {
     let enumber: HTMLInputElement = document.getElementById("enumber") as HTMLInputElement
     let result: HTMLDivElement = document.getElementById("information") as HTMLDivElement
     let inputform: HTMLFormElement = document.getElementById("inputform") as HTMLFormElement
@@ -36,7 +36,7 @@ window.onload = _ => {
         enumber.value = ""
         return false // to prevent reload
     }
-}
+})
 
 function translateToArabic(judgement: Judgement): string {
     switch (judgement) {

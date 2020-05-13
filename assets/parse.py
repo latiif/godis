@@ -18,7 +18,9 @@ def parse_data_file(file_name: str) -> dict:
 
         result[name] = dict()
         result[name]["tags"] = tags
-        result[name]["description"] = " ".join(comment)
+        # Leave out 'description' to minimize the dictionary size.
+        # As for now, the field 'description' is not utilized.
+        #result[name]["description"] = " ".join(comment)
 
     return result
 

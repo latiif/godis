@@ -15,25 +15,13 @@ window.addEventListener('load', _ => {
         eElement = `${hindiToArabic(enumber.value)}`
     }
 
+    enumber.oninput = _ => {
+        if (findJudgement(result, enumber.value))
+            enumber.value = ""
+    }
+
     inputform.onsubmit = ev => {
-        let found = false
-        var info = data[`${eElement}`]
-        if (info === null || info === undefined) {
-            result.innerHTML = "NOT FOUND"
-        } else {
-            console.log("info " + info)
-            let tags = info["tags"] as Array<string>
-            tags.forEach(tag => {
-                if (isJudgement(tag)) {
-                    parseIntoResult(result, eElement, tag)
-                    found = true
-                }
-            })
-        }
-        if (!found) {
-            parseIntoResult(result, eElement, "NOTFOUND")
-        }
-        enumber.value = ""
+        findJudgement(result, enumber.value)
         return false // to prevent reload
     }
 })
@@ -75,4 +63,25 @@ function parseIntoResult(result: HTMLDivElement, element: string, judgement: Jud
     elementJudgement.innerHTML = arabicTranslation
     result.appendChild(elementName)
     result.appendChild(elementJudgement)
+}
+
+function findJudgement(result: HTMLDivElement, element: string): boolean {
+    let found = false
+    var info = data[`${element}`]
+    if (info === null || info === undefined) {
+        result.innerHTML = "NOT FOUND"
+    } else {
+        console.log("info " + info)
+        let tags = info["tags"] as Array<string>
+        tags.forEach(tag => {
+            if (isJudgement(tag)) {
+                parseIntoResult(result, element, tag)
+                found = true
+            }
+        })
+    }
+    if (!found) {
+        parseIntoResult(result, element, "NOTFOUND")
+    }
+    return found
 }

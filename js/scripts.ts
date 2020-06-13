@@ -21,7 +21,7 @@ window.addEventListener('load', _ => {
     }
 
     inputform.onsubmit = ev => {
-        findJudgement(result, enumber.value)
+        findJudgement(result, getMostSimilar(enumber.value))
         return false // to prevent reload
     }
 })
@@ -85,3 +85,5 @@ function findJudgement(result: HTMLDivElement, element: string): boolean {
     }
     return found
 }
+
+let getMostSimilar : (string) => string

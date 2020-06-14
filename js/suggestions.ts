@@ -1,6 +1,6 @@
 let data: any | null
 
-function levenshtein(a:string, b:string) :number {
+function levenshtein(a: string, b: string): number {
     var t = [], u, i, j, m = a.length, n = b.length;
     if (!m) { return n; }
     if (!n) { return m; }

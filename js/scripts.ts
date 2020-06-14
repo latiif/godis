@@ -1,5 +1,9 @@
 let data: any | null
 
+type Score = [string, number]
+let distance = (score: Score): number => score[1]
+let value = (score: Score): string => score[0]
+
 type Judgement = "HALAL" | "HARAM" | "SUSPECTED" | "UNKNOWN" | "NOTFOUND"
 function isJudgement(arg: string): arg is Judgement {
     let judgmenets = ["HALAL", "HARAM", "SUSPECTED", "UNKNOWN", "NOTFOUND"]
@@ -10,18 +14,25 @@ window.addEventListener('load', _ => {
     let enumber: HTMLInputElement = document.getElementById("enumber") as HTMLInputElement
     let result: HTMLDivElement = document.getElementById("information") as HTMLDivElement
     let inputform: HTMLFormElement = document.getElementById("inputform") as HTMLFormElement
+    let hint: HTMLDivElement = document.getElementById("hint") as HTMLDivElement
+
     let eElement: string
-    enumber.onkeyup = _ => {
+
+    enumber.oninput = _ => {
+        hint.style.display = "none"
+        console.log("DEBUG: ", `${hindiToArabic(enumber.value)}`)
         eElement = `${hindiToArabic(enumber.value)}`
     }
 
-    enumber.oninput = _ => {
-        if (findJudgement(result, enumber.value))
-            enumber.value = ""
-    }
-
     inputform.onsubmit = ev => {
-        findJudgement(result, getMostSimilar(enumber.value))
+        let score: Score = getMostSimilar(eElement);
+        if (distance(score) != 0) { // Not an exact match
+            hint.innerHTML = `هل تقصد${value(score)}؟`
+            hint.style.display = "block";
+        } else {
+            hint.style.display = "none"
+        }
+        findJudgement(result, value(score))
         return false // to prevent reload
     }
 })
@@ -86,4 +97,4 @@ function findJudgement(result: HTMLDivElement, element: string): boolean {
     return found
 }
 
-let getMostSimilar : (string) => string
+let getMostSimilar: (string) => Score

@@ -12,9 +12,9 @@ function levenshtein(a: string, b: string): number {
     } return u[n];
 }
 
-function getMostSimilar(s: string): string {
+function getMostSimilar(s: string): [string,number] {
     return Object
         .keys(data)
         .map(element => [element, levenshtein(s, element)] as [string, number])
-        .reduce((best, current) => current[1] < best[1] ? current : best, [null, 999])[0]
+        .reduce((best, current) => current[1] < best[1] ? current : best, [null, 999])
 }

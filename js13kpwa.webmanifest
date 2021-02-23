@@ -1,0 +1,18 @@
+{
+    "name": "Godis",
+    "short_name": "Godis",
+    "description": "A Simple Website to Lookup Information on E-Numbers",
+    "icons": [{
+        "src": "favicon.png",
+        "sizes": "512x512",
+        "type": "image/png"
+    }],
+    "start_url": ".",
+    "display": "fullscreen",
+    "related_applications": [{
+        "platform": "web",
+        "url": "https://godis.gq"
+    }],
+    "theme_color": "#B12A34",
+    "background_color": "#B12A34"
+}
